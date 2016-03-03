@@ -1,5 +1,6 @@
 package materialdesign.df29.lumiere.materialdesign.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -57,7 +58,8 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            Intent intent = new Intent(getApplicationContext(), TabAct.class);
+            startActivity(intent);
         }
 
         if(id == R.id.action_search){
