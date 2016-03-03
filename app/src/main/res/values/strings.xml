@@ -20,4 +20,8 @@
     <string name="title_messages">Messages</string>
     <string name="title_friends">Friends</string>
     <string name="title_home">Home</string>
+    <string name="one">One</string>
+    <string name="two">Two</string>
+    <string name="third">Third</string>
+    <string name="tabact">Tab Activity</string>
 </resources>
