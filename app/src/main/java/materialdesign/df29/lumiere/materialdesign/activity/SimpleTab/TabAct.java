@@ -40,7 +40,9 @@ public class TabAct extends AppCompatActivity {
         setupViewPager(viewPager);
 
         tabLayout = (TabLayout) findViewById(R.id.tabs);
+        tabLayout.setTabMode(TabLayout.MODE_FIXED);
         tabLayout.setupWithViewPager(viewPager);
+
     }
 
     @Override
@@ -48,6 +50,7 @@ public class TabAct extends AppCompatActivity {
         switch (item.getItemId()){
             case android.R.id.home:
                 super.onBackPressed();
+                this.overridePendingTransition(R.anim.fadein, R.anim.fadeout);
                 break;
             default:
                 break;
