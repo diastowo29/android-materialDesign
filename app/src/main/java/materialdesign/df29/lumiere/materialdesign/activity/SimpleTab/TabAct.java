@@ -1,4 +1,4 @@
-package materialdesign.df29.lumiere.materialdesign.activity.Tab;
+package materialdesign.df29.lumiere.materialdesign.activity.SimpleTab;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -16,9 +16,9 @@ import java.util.List;
 import materialdesign.df29.lumiere.materialdesign.R;
 
 /**
- * Created by Lumiere on 3/4/2016.
+ * Created by Lumiere on 3/3/2016.
  */
-public class ManyTabAct extends AppCompatActivity {
+public class TabAct extends AppCompatActivity {
 
     private Toolbar toolbar;
     private TabLayout tabLayout;
@@ -60,10 +60,6 @@ public class ManyTabAct extends AppCompatActivity {
         adapter.addFragment(new OneFragment(), "ONE");
         adapter.addFragment(new SecondFragment(), "TWO");
         adapter.addFragment(new ThirdFragment(), "THREE");
-        adapter.addFragment(new FourFragment(), "FOUR");
-        adapter.addFragment(new FiveFragment(), "FIVE");
-        adapter.addFragment(new SixFragment(), "SIX");
-        adapter.addFragment(new SevenFragment(), "SEVEN");
         viewPager.setAdapter(adapter);
     }
 

@@ -1,37 +1,30 @@
-package materialdesign.df29.lumiere.materialdesign.activity.Tab;
+package materialdesign.df29.lumiere.materialdesign.activity.SimpleTab;
 
-
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
 import materialdesign.df29.lumiere.materialdesign.R;
 
 /**
- * Created by Lumiere on 3/3/2016.
+ * Created by Lumiere on 3/4/2016.
  */
-public class SecondFragment extends Fragment {
-
-    public SecondFragment() {
+public class FourFragment extends Fragment{
+    public FourFragment() {
         // Required empty public constructor
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View rootView = inflater.inflate(R.layout.fragment_second, container, false);
-
-        return rootView;
+        return inflater.inflate(R.layout.fragment_one, container, false);
     }
 }

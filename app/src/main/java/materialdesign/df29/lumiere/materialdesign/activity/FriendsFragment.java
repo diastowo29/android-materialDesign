@@ -10,8 +10,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import materialdesign.df29.lumiere.materialdesign.R;
-import materialdesign.df29.lumiere.materialdesign.activity.Tab.ManyTabAct;
-import materialdesign.df29.lumiere.materialdesign.activity.Tab.TabAct;
+import materialdesign.df29.lumiere.materialdesign.activity.SimpleTab.ManyTabAct;
+import materialdesign.df29.lumiere.materialdesign.activity.SimpleTab.TabAct;
 
 /**
  * Created by Lumiere on 3/2/2016.

@@ -14,7 +14,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import materialdesign.df29.lumiere.materialdesign.R;
-import materialdesign.df29.lumiere.materialdesign.activity.Tab.TabAct;
+import materialdesign.df29.lumiere.materialdesign.activity.SimpleTab.TabAct;
 
 public class MainActivity extends ActionBarActivity implements FragmentDrawer.FragmentDrawerListener {
 

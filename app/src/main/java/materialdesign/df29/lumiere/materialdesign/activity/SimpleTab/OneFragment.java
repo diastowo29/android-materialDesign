@@ -1,4 +1,4 @@
-package materialdesign.df29.lumiere.materialdesign.activity.Tab;
+package materialdesign.df29.lumiere.materialdesign.activity.SimpleTab;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,11 +9,10 @@ import android.view.ViewGroup;
 import materialdesign.df29.lumiere.materialdesign.R;
 
 /**
- * Created by Lumiere on 3/4/2016.
+ * Created by Lumiere on 3/3/2016.
  */
-public class SevenFragment extends Fragment {
-
-    public SevenFragment() {
+public class OneFragment extends Fragment {
+    public OneFragment() {
         // Required empty public constructor
     }
 
