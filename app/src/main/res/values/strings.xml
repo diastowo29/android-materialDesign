@@ -24,4 +24,5 @@
     <string name="two">Two</string>
     <string name="third">Third</string>
     <string name="tabact">Tab Activity</string>
+    <string name="manytabact">Many Tab Act</string>
 </resources>

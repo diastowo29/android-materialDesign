@@ -18,8 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.TabAct"
+        <activity android:name=".activity.Tab.TabAct"
             android:label="@string/tabact"/>
+        <activity android:name=".activity.Tab.ManyTabAct"
+            android:label="@string/manytabact"/>
     </application>
 
 </manifest>

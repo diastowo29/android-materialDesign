@@ -1,5 +1,4 @@
-package materialdesign.df29.lumiere.materialdesign.activity;
-
+package materialdesign.df29.lumiere.materialdesign.activity.Tab;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -10,11 +9,11 @@ import android.view.ViewGroup;
 import materialdesign.df29.lumiere.materialdesign.R;
 
 /**
- * Created by Lumiere on 3/3/2016.
+ * Created by Lumiere on 3/4/2016.
  */
-public class SecondFragment extends Fragment {
+public class FiveFragment extends Fragment {
 
-    public SecondFragment() {
+    public FiveFragment() {
         // Required empty public constructor
     }
 
@@ -27,6 +26,6 @@ public class SecondFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_second, container, false);
+        return inflater.inflate(R.layout.fragment_one, container, false);
     }
 }

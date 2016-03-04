@@ -1,4 +1,4 @@
-package materialdesign.df29.lumiere.materialdesign.activity;
+package materialdesign.df29.lumiere.materialdesign.activity.Tab;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
